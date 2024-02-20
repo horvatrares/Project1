@@ -1,10 +1,4 @@
 # depslib dependency file v1.0
-1484998710 source:c:\users\ovidiu\desktop\proiect\main.cpp
-	<iostream>
-	<windows.h>
-	<fstream>
-	<cstring>
-	<conio.h>
 
 1484998712 source:g:\proiect\main.cpp
 	<iostream>
