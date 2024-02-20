@@ -1,0 +1,97 @@
+#include <iostream>
+#include <windows.h>
+#include <fstream>
+#include <cstring>
+#include <conio.h>
+
+using namespace std;
+
+struct data
+{
+    int zi, luna, an;
+};
+
+struct echipa
+{
+    int id_echipa;
+    char nume[100];
+    data data_infiintarii;
+};
+
+struct jucatori
+{
+    int id_jucator;
+    char nume[20], prenume [20];
+    char nationalitate[20];
+    int id_e;
+};
+
+echipa e[100];
+jucatori j[100];
+int n,m;
+
+void citire_echipe()
+{
+    ifstream f("echipe.in");
+    while (!f.eof())
+    {
+        n++;
+        f>>e[n].id_echipa>>e[n].nume>>e[n].data_infiintarii.zi>>e[n].data_infiintarii.luna>>e[n].data_infiintarii.an;
+    }
+    n--;
+    f.close();
+}
+
+void citire_jucatori()
+{
+    ifstream f("jucatori.in");
+    while (!f.eof())
+    {
+        m++;
+        f>>j[m].id_jucator>>j[m].nume>>j[m].prenume>>j[m].nationalitate>>j[m].id_e;
+    }
+    m--;
+    f.close();
+}
+
+void afisare_echipe()
+{
+    for (int i=0;i<=n;i++)
+        cout<<e[i].id_echipa<<e[i].nume<<" - "<<e[i].data_infiintarii.zi<<"."<<e[i].data_infiintarii.luna<<"."<<e[i].data_infiintarii.an<<endl;;
+}
+
+void afisare_jucatori()
+{
+    for (int i=0;i<=n;i++)
+        cout<<j[i].id_jucator<<j[i].nume<<j[i].prenume<<j[i].nationalitate<<j[i].id_e;
+}
+
+void meniu()
+{
+    char op;
+    do
+    {
+        system ("cls");
+        cout<<"========MENIU========"<<endl;
+        cout<<"1.Afisare echipe"<<endl;
+        cout<<"2.Afisare jucatori"<<endl;
+        cout<<"0.Iesire"<<endl;
+        cout<<"====================="<<endl;
+        op=getch();
+        system("cls");
+        switch (op)
+        {
+            case '1':cout<<afisare_echipe()<<endl; system("pause"); break;
+            case '2':cout<<afisare_jucatori()<<endl; system("pause"); break;
+        }
+    }while (op!=9);
+}
+
+int main()
+{
+    char op;
+    citire_echipe();
+    citire_jucatori();
+    meniu();
+
+}

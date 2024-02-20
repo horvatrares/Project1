@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1484998710 source:c:\users\ovidiu\desktop\proiect\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+	<conio.h>
+
+1484998712 source:g:\proiect\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+	<conio.h>
+
+1485255524 source:g:\proiect.info\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+
+1485255449 source:c:\users\ovidiu\desktop\proiect.info\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+	<conio.h>
+
+1486993152 source:c:\users\cristina\desktop\applicationstructure-incercari_eu\inregistrari_proiecte inceputeroth\proiect.infoovidiu\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+
+1490461176 source:c:\users\toshiba\desktop\info\atestat info\new folder\proiect fotbal\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+
+1494312060 source:c:\users\elev\documents\12 mi\atestat\proiect fotbal\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+	<graphics.h>
+
+1494483435 source:e:\proiect fotbal\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+	<graphics.h>
+
+1494483435 source:c:\users\elev\desktop\proiect fotbal\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+	<graphics.h>
+
+1494483805 source:c:\users\admin\desktop\atestate finale 2017\horvat rares\proiect fotbal\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+	<graphics.h>
+
+1494480205 source:c:\users\dell_1\desktop\atestate finale 2017\horvat rares\proiect fotbal\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+	<graphics.h>
+
+1494480205 source:d:\curatenie sept 2023\curatenie martie 2021\curatenie octombrie 2020\atestate finale 2017\horvat rares\proiect fotbal\main.cpp
+	<iostream>
+	<windows.h>
+	<fstream>
+	<cstring>
+	<graphics.h>
+
